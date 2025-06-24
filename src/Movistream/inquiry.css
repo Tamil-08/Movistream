@@ -1,0 +1,49 @@
+.backimg-testimonial {
+
+  background-position:cover;
+  height: 60vh;
+
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+}
+.custom-flex{
+    background-color: #000000;
+    
+}
+.form{
+     background:black;
+  
+ 
+}
+.testi-color-1 {
+  background-color:lightblue;
+
+}
+.testi-color-2 {
+  background-color:lightskyblue;
+  
+}
+.testi-color-3 {
+  background-color:lightpink;
+
+}
+
+.testimonial-center {
+   
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 10px;
+  color: rgb(250, 4, 4);
+  text-shadow: 1px 1px #000000;
+  cursor: pointer;
+}
+.contact-para {
+  font-family: "Times New Roman", Times, serif;
+  color: #000000;
+  
+}
+.button-contact-form {
+  text-align: center;
+  margin-top: 20px;
+  background-color: #000000;
+}
