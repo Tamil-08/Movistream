@@ -1,0 +1,267 @@
+
+
+
+/* .row{
+    margin-left: 20px;
+    color: #fff;
+     cursor: pointer;
+     background-color: #040404;
+    
+
+}
+
+.posters{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y:hidden ;
+   
+}
+
+.posters::-webkit-scrollbar{
+    display: none; 
+    overflow-y: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #6c5ce7 #dfe6e9;
+}
+.posters::-webkit-scrollbar:hover{
+     transition: transform .3s;
+  -ms-transform: scale(0.9);
+  -webkit-transform: scale(0.9);  
+  transform: scale(1.1);
+  scroll-behavior: smooth;
+}
+
+.poster::-webkit-scrollbar {
+  width: 8px;
+}
+
+.poster::-webkit-scrollbar-track {
+  background: #dfe6e9;
+  
+}
+
+.home::-webkit-scrollbar-thumb {
+  background-color: #6c5ce7;
+  border-radius: 4px;
+  
+}
+
+
+.poster{
+    max-height: 250px;
+    margin-right: 10px;
+    border-radius: 7px;
+     border: rgb(255, 255, 255);
+     
+
+}
+
+.poster:hover{
+     transition: transform .3s;
+  -ms-transform: scale(0.9);
+  -webkit-transform: scale(0.9);  
+  transform: scale(1.1);
+}
+
+
+.header-slider{
+ display: flex;
+ gap: 2%;
+ border: rgb(255, 255, 255);
+ border-radius: 2%;
+ cursor: pointer;
+
+}
+
+
+.fancy-button {
+  background-color: #040404;
+  color: white;
+  border:#fbfbfb;
+   margin-left:32% ;
+   padding: 10px 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.fancy-button:hover {
+  background-color: #f00303;
+  transform: scale(1.05);
+}
+
+.home{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.home:hover{
+    color: red;
+}
+
+.img{
+    width: 18rem;
+    
+}
+.img:hover{
+ transition: transform .3s;
+  -ms-transform: scale(0.9);
+  -webkit-transform: scale(0.9);  
+  transform: scale(1.1);
+
+}
+
+.tv-slider{
+    display: flex;
+ gap: 2%;
+ border: white;
+ border-radius: 2%;
+ cursor: pointer;
+}
+
+.tv{
+     color: white;
+    cursor: pointer;
+}
+
+.tv:hover{
+    color: var(--dark);
+}
+
+.Movies-slider{
+display: flex;
+ gap: 2%;
+ border: white;
+ border-radius: 2%;
+ cursor: pointer;
+}
+
+.Movies{
+    color: white;
+    cursor: pointer;
+}
+
+.Movies:hover{
+    color: var(--dark); 
+}
+
+.anime-slider{
+    display: flex;
+ gap: 2%;
+ border: white;
+ border-radius: 2%;
+ cursor: pointer;
+}
+
+.anime{
+     color: white;
+    cursor: pointer;
+}
+.anime:hover{
+    color: var(--dark);
+}
+
+.recently-added{
+     display: flex;
+ gap: 2%;
+ border: white;
+ border-radius: 2%;
+ cursor: pointer;
+}
+
+.added{
+     color: white;
+    cursor: pointer;
+}
+
+.added:hover{
+    color: var(--dark);
+}
+
+.web-series{
+     display: flex;
+ gap: 2%;
+ border: white;
+ border-radius: 2%;
+ cursor: pointer;
+}
+
+.web{
+    color: white;
+    cursor: pointer;
+}
+
+.web:hover{
+    color: var(--dark);
+} */
+
+.row{
+    background-color: black;
+    color: white;
+}
+.posters {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 16px;
+  padding: 0 20px;
+}
+
+.posters::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+
+.poster-wrapper {
+  flex: 0 0 auto; /* Prevent wrapping */
+  width: 130px;
+  text-align: center;
+}
+
+.poster-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.poster {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.poster-container:hover .poster {
+  transform: scale(1.05);
+}
+
+.play-button {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: white;
+  font-size: 14px;
+  border-radius: 50%;
+  padding: 10px 14px;
+  opacity: 0;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.poster-container:hover .play-button {
+  opacity: 1;
+}
+
+.poster-title {
+  color: white;
+  font-size: 14px;
+  margin-top: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

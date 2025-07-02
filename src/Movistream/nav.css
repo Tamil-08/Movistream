@@ -1,0 +1,58 @@
+
+
+ .customize {
+  background-color:black;
+  color: white;
+
+}
+
+/*.drop:hover {
+  border: 1px solid;
+  border-radius: 5px;
+  background-color:transparent;
+  color: rgb(0, 0, 0);
+}
+
+
+.dropdown-menu {
+  background-color: rgba(177, 169, 169, 0.666) !important;
+  border-radius: 6px;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: rgba(1, 0, 0, 0.454) !important;
+  color: rgb(255, 255, 255) !important;
+  border-radius: 5px;
+} */
+
+
+
+
+
+  
+ 
+
+
+
+ @media (max-width: 991px) {
+  .navbar-expanded .navbar-collapse {
+    background-color: #22222200;
+    padding: 1rem;
+  }
+}
+ 
+.navbar {
+  transition: background-color 0.3s ease;
+}
+.ms-auto{
+ background-color: rgba(55, 55, 55, 0)!important;
+  border-radius: 6px;
+}
+.ms-auto
+{
+  display: flex;
+  gap: 2px;
+  padding: 10px;
+  justify-content: center;
+  text-align: left;
+}
