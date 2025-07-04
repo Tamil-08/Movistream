@@ -1,5 +1,5 @@
 
-.car{
+/* .car{
   cursor: pointer;
 
 
@@ -12,8 +12,63 @@
     background-color: lightblue;
     
     
-  }
+  } */
 
+.stream-container {
+  position: relative;
+  background: black;
+  color: white;
+  height: 100vh;
+}
+
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.stream-info {
+  position: absolute;
+  bottom: 20px;
+  left: 40px;
+  max-width: 500px;
+}
+
+.stream-title {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.stream-description {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.stream-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.play-btn,
+.back-btn {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.play-btn:hover,
+.back-btn:hover {
+  background-color: #f40612;
+}
 
 
    
