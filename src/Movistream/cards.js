@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Main from "./nav";
 import PosterSection from "./PosterSection";
 import TrailerModal from "./TrailModal";
-import Slider from "react-slick";
+
 
 import alice from './images/alice.jfif';
 import stranger from './images/stranger.jfif';

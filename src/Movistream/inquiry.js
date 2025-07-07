@@ -5,6 +5,7 @@ import axios from "axios";
 import "./inquiry.css";
 
 const Inquiry = () => {
+ 
   const [name, setName] = useState("")
   const [mail, setMail] = useState("")
   const [num, setNum] = useState("")
@@ -24,6 +25,8 @@ const Inquiry = () => {
   }
 
   return (
+    
+
     <section className="contactus" id="reviews">
       <div className="backimg-testimonial py-5">
         <Container>
@@ -111,9 +114,12 @@ const Inquiry = () => {
                   </Col>
                 </Row>
               </Container>
+              <div>Inquiry Page</div>
             </div>
     </section>
+    
   );
+  
 };
 
 export default Inquiry;
