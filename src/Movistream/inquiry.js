@@ -114,7 +114,7 @@ const Inquiry = () => {
                   </Col>
                 </Row>
               </Container>
-              <div>Inquiry Page</div>
+              
             </div>
     </section>
     
