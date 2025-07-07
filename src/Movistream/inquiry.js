@@ -25,7 +25,7 @@ const Inquiry = () => {
   }
 
   return (
-    
+    <div>
 
     <section className="contactus" id="reviews">
       <div className="backimg-testimonial py-5">
@@ -117,6 +117,7 @@ const Inquiry = () => {
               
             </div>
     </section>
+    </div>
     
   );
   
