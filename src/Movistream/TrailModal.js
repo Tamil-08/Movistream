@@ -50,4 +50,3 @@ const TrailerModal = ({ url, onClose }) => {
 
 export default TrailerModal;
 
-
