@@ -10,7 +10,7 @@ import Home from "./cards";
 import Carso from "./Carso";
 import End from "./footer";
 import Login from "./Login";
-import Inquiry from "./Inquiry.js";
+import Inquiry from "./Inquiry";
 import Register from "./Register";
 import AdminDashboard from "./AdminDashboard";
 import Adminlogin from "./AdminLogin";
