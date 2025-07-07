@@ -31,7 +31,7 @@ const Getstart = () => {
         <Route path="/register" element={<Register />} />
        <Route element={<Home />} path="/home" /> 
      <Route element={<AdminDashboard/>} path="/AdminDashboard"/>
-      <Route element={<Inquiry />} path="/inquiry" />
+      <Route element={<Inquiry />} path="/Inquiry" />
      <Route path="/reviews" element={<reviews />} />
      
       
