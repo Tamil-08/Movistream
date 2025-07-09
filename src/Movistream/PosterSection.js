@@ -4,6 +4,7 @@ import './cards.css';
 const PosterSection = ({ title, posters }) => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
+  
   return (
     <div className="row-cont">
       <h2 className="home">{title}</h2>
