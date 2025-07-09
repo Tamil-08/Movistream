@@ -113,14 +113,14 @@ const Home = () => {
   {
     name: "Good Bad Ugly",
     img: gbu,
-    trailer: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    trailer: "https://www.youtube.com/watch?v=c9zWcnNR2q0",
     genre: "Western",
     description: "Three men race to find a fortune in buried gold."
   },
   {
     name: "Hit: The First Case",
     img: Hit,
-    trailer: "https://www.youtube.com/watch?v=Go8nTmfrQd8",
+    trailer: "https://www.youtube.com/watch?v=BG1wHm91mmA",
     genre: "Crime, Thriller",
     description: "A detective battles his own trauma while solving a missing case."
   },
@@ -141,25 +141,25 @@ const Home = () => {
   {
     name: "Squid Game Season 2",
     img: squid2,
-    trailer: "https://www.youtube.com/watch?v=xyz123abc",
+    trailer: "https://www.youtube.com/watch?v=Ed1sGgHUo88",
     genre: "Drama, Thriller",
     description: "The deadly game continues with higher stakes."
   },
   {
     name: "Young Sheldon",
     img: sheldon,
-    trailer: "https://www.youtube.com/watch?v=YJUz3v5RZ9I",
+    trailer: "https://www.youtube.com/watch?v=lgE0JaBrL8c",
     genre: "Comedy",
     description: "A child prodigy navigates high school and life."
   }
 ];
 const Tvshows = [
   {
-    name: "The Weakest Link",
+    name: "Weak Hero",
     img: weak,
-    trailer: "https://www.youtube.com/watch?v=scsE_J9Wnmk",
-    genre: "Game Show",
-    description: "Contestants answer trivia questions for cash prizes."
+    trailer: "https://www.youtube.com/watch?v=Y1kiQzQGVEo",
+    genre: "Action",
+    description: "A studious young man refuses to back down from the bullies in his class."
   },
   {
     name: "Unseen",
@@ -214,9 +214,9 @@ const Tvshows = [
 
 const movies = [
   {
-    name: "Nonna's Recipe",
+    name: "Nonnas",
     img: Nonnas,
-    trailer: "https://www.youtube.com/watch?v=cgywJK9iKZk",
+    trailer: "https://www.youtube.com/watch?v=rDJxJd3FzDY",
     genre: "Drama",
     description: "A heartfelt story about tradition and family."
   },
@@ -230,7 +230,7 @@ const movies = [
   {
     name: "Havoc",
     img: havoc,
-    trailer: "https://www.youtube.com/watch?v=c4bIfRqjPhw",
+    trailer: "https://www.youtube.com/watch?v=6txjTWLoSc8",
     genre: "Crime, Action",
     description: "After a drug deal goes wrong, a detective fights his way through a criminal underworld."
   },
@@ -242,30 +242,30 @@ const movies = [
     description: "A black-market mercenary is hired to rescue the kidnapped son of an international crime lord."
   },
   {
-    name: "Deadly Illusions",
+    name: "A Amercian Marriage",
     img: deadly,
-    trailer: "https://www.youtube.com/watch?v=Ni8lRqeS2bI",
+    trailer: "https://www.youtube.com/watch?v=cJMq6ykdSPI",
     genre: "Thriller",
-    description: "A bestselling female novelist hires an innocent young woman to watch over her twin children."
+    description: "A disturbing 911 call and horrific crime scene raise questions about Jason Corbett's death."
   },
   {
-    name: "Inside",
+    name: "Inside Out",
     img: inside,
-    trailer: "https://www.youtube.com/watch?v=U4U1oN-YhjI",
+    trailer: "https://www.youtube.com/watch?v=tlg4BQqhn3I",
     genre: "Psychological, Drama",
     description: "A wealthy art thief becomes trapped in a luxury penthouse."
   },
   {
-    name: "Sweet Home",
+    name: "Home",
     img: home,
-    trailer: "https://www.youtube.com/watch?v=7rLZ0yA7rPo",
-    genre: "Horror, Drama",
-    description: "As humans turn into savage monsters, one troubled teen fights to survive."
+    trailer: "https://www.youtube.com/watch?v=MyqZf8LiWvM",
+    genre: "Goofy, Sci-fi Adventure",
+    description: "Oh, a lovable misfit alien, runs away from his planet and takes shelter on Earth."
   },
   {
-    name: "Twin Murders",
+    name: "Twinlight Series",
     img: twin,
-    trailer: "https://www.youtube.com/watch?v=zzyE2Xz4jGQ",
+    trailer: "https://www.youtube.com/watch?v=QDRLSqm_WVg",
     genre: "Mystery, Crime",
     description: "A cop tries to solve the mysterious murder of a judge."
   }
@@ -275,8 +275,8 @@ const recentlyAdded = [
   {
     name: "Retro",
     img: retro,
-    trailer: "https://www.youtube.com/watch?v=_InqQJRqGW4",
-    genre: "Retro, Documentary",
+    trailer: "https://www.youtube.com/watch?v=ZnH_2I0WoFQ",
+    genre: "Action",
     description: "A nostalgic journey through vintage pop culture."
   },
   {
@@ -287,45 +287,45 @@ const recentlyAdded = [
     description: "A mockumentary on a group of typical office workers."
   },
   {
-    name: "Richie Rich",
+    name: "Bitch x Rich",
     img: rich,
-    trailer: "https://www.youtube.com/watch?v=K4bIrk2xZp0",
-    genre: "Comedy, Family",
+    trailer: "https://www.youtube.com/watch?v=RR9ki1MCYoI",
+    genre: "Thiller",
     description: "The world's richest kid lives a lavish life and solves mysteries."
   },
   {
-    name: "World War Z",
+    name: "Reunited World",
     img: world,
-    trailer: "https://www.youtube.com/watch?v=Md6Dvxdr0AQ",
-    genre: "Action, Horror",
-    description: "A former UN investigator traverses the world in a race against time to stop a zombie pandemic."
+    trailer: "https://www.youtube.com/watch?v=jxYxfWrwzBA",
+    genre: "Comedy, Drama",
+    description: "Dead twelve years earlier, a young man mysteriously reappears with the same appearance."
   },
   {
-    name: "Thunder Force",
+    name: "Thunderbolts",
     img: thunder,
-    trailer: "https://www.youtube.com/watch?v=qnx6-YLXFwg",
+    trailer: "https://www.youtube.com/watch?v=x52MYc8brac",
     genre: "Action, Comedy",
     description: "Two childhood friends become superheroes in middle age."
   },
   {
-    name: "Yes Day (Family Movie)",
+    name: " Tourist Family ",
     img: family,
-    trailer: "https://www.youtube.com/watch?v=fsb8UDr3kMQ",
+    trailer: "https://www.youtube.com/watch?v=9sH1PoGOydc",
     genre: "Family, Comedy",
-    description: "Parents say yes to their kids' wildest requests with a few ground rules."
+    description: "After the COVID-19 pandemic hits Sri Lanka, a family travels to India to begin a new life. Their arrival quickly transforms their new neighbourhood."
   },
   {
-    name: "The Craft: Legacy",
+    name: "Minecraft",
     img: craft,
-    trailer: "https://www.youtube.com/watch?v=Ba-cqYXcFNU",
-    genre: "Fantasy, Horror",
+    trailer: "https://www.youtube.com/watch?v=wJO_vIDZn-I",
+    genre: "Fantasy",
     description: "An eclectic foursome of aspiring teenage witches get more than they bargained for."
   },
   {
-    name: "Seven",
+    name: " Scissor Seven",
     img: seven,
-    trailer: "https://www.youtube.com/watch?v=znmZoVkCjpI",
-    genre: "Crime, Thriller",
+    trailer: "https://www.youtube.com/watch?v=WaV2GMIZ3l4",
+    genre: "Comedy, Action",
     description: "Two detectives hunt a serial killer who uses the seven deadly sins as his motives."
   }
 ];
@@ -334,7 +334,7 @@ const anime = [
   {
     name: "Naruto",
     img: naruto,
-    trailer: "https://www.youtube.com/watch?v=JvKrwwA-m4E",
+    trailer: "https://www.youtube.com/watch?v=-G9BqkgZXRA",
     genre: "Action, Adventure",
     description: "A young ninja seeks recognition and dreams of becoming the Hokage."
   },
@@ -360,30 +360,30 @@ const anime = [
     description: "A boy runs away to Tokyo and meets a girl who can manipulate weather."
   },
   {
-    name: "Dragon Ball Super: Broly",
+    name: "Dragon Ball Super",
     img: dragon,
-    trailer: "https://www.youtube.com/watch?v=3nU3aUX4zQk",
+    trailer: "https://www.youtube.com/watch?v=sxufB6DxXk0",
     genre: "Action, Sci-Fi",
     description: "Goku and Vegeta encounter a Saiyan named Broly."
   },
   {
-    name: "Dandadan (Fan Trailer)",
+    name: "Dandadan",
     img: dandad,
-    trailer: "https://www.youtube.com/watch?v=nGxDkF3qR-o",
+    trailer: "https://www.youtube.com/watch?v=0XJxfbN36Uw",
     genre: "Sci-Fi, Supernatural",
     description: "Two teens investigate UFOs and ghosts and get caught up in chaos."
   },
   {
-    name: "Blue Period",
+    name: "Blue Lock",
     img: blue,
-    trailer: "https://www.youtube.com/watch?v=eRby9Yjo5Vg",
+    trailer: "https://www.youtube.com/watch?v=IVsII3dLbWc",
     genre: "Drama",
     description: "A high school student discovers a passion for art."
   },
   {
     name: "Chainsaw Man",
     img: chainsaw,
-    trailer: "https://www.youtube.com/watch?v=eyonP1AgC0k",
+    trailer: "https://www.youtube.com/watch?v=rMXILr3zwAY",
     genre: "Action, Horror",
     description: "A young man with a chainsaw dog becomes a devil hunter."
   }
@@ -392,57 +392,65 @@ const webSeries = [
   {
     name: "Breaking Bad",
     img: bad,
-    trailer: "https://www.youtube.com/watch?v=HhesaQXLuRY"
+    trailer: "https://www.youtube.com/watch?v=HhesaQXLuRY",
+    genre: "Crime, Drama, Thriller",
+    description: "A high school chemistry teacher turned methamphetamine producer descends into the criminal underworld."
   },
   {
-    name: "The Queen's Gambit",
+    name: "Pyramid Game ",
     img: game,
-    trailer: "https://www.youtube.com/watch?v=CDrieqwSdgI"
+    trailer: "https://www.youtube.com/watch?v=BcYin0vw1yc",
+    genre: "Drama, Sport",
+    description: "An orphaned chess prodigy's rise to fame while battling addiction and personal demons."
   },
   {
     name: "The Guest",
     img: guest,
-    trailer: "https://www.youtube.com/watch?v=0L2RzTujcuY"
+    trailer: "https://www.youtube.com/watch?v=LEJDvvJGIuI",
+    genre: "Action, Mystery, Thriller",
+    description: "A soldier introduces himself to the Peterson family, claiming to be a friend of their son, and soon they find themselves in danger."
   },
   {
     name: "Paatal Lok",
     img: paatal,
-    trailer: "https://www.youtube.com/watch?v=ix3hck4fLO0"
+    trailer: "https://www.youtube.com/watch?v=KpZnTmAQUfE",
+    genre: "Crime, Thriller, Drama",
+    description: "A cynical Delhi cop lands a case that leads him into the dark underbelly of the Indian political system."
   },
   {
     name: "Loki",
     img: loki,
-    trailer: "https://www.youtube.com/watch?v=nW948Va-l10"
+    trailer: "https://www.youtube.com/watch?v=nW948Va-l10",
+    genre: "Action, Adventure, Fantasy",
+    description: "After stealing the Tesseract, Loki lands in a world of trouble with the Time Variance Authority."
   },
   {
     name: "Paatal Lok – Season 2",
     img: paatal1,
-    trailer: "https://www.youtube.com/watch?v=d-SvTOiY_5k"
+    trailer: "https://www.youtube.com/watch?v=RyzVgy8JteA",
+    genre: "Crime, Thriller, Drama",
+    description: "The gritty cop returns to face a darker conspiracy in the second season of the critically acclaimed Indian crime series."
   },
   {
     name: "Money Heist",
     img: money,
-    trailer: "https://www.youtube.com/watch?v=htqXL94Rza4"
+    trailer: "https://www.youtube.com/watch?v=_InqQJRqGW4",
+    genre: "Action, Crime, Drama",
+    description: "A criminal mastermind plans the biggest heist in history — to print billions of euros in the Royal Mint of Spain."
   },
   {
-    name: "The Office (US)",
+    name: "Vera Mari Office",
     img: voffice,
-    trailer: "https://www.youtube.com/watch?v=Vmb1tqYqyII"
+    trailer: "https://www.youtube.com/watch?v=hFA4xknFI4A",
+    genre: "Comedy",
+    description: "A mockumentary on a group of typical office workers, where the workday consists of ego clashes, inappropriate behavior, and tedium."
   },
   {
-    name: "Loki",
+    name: "Loki Season 2",
     img: loki,
-    trailer: "https://www.youtube.com/watch?v=nW948Va-l10"
-  },
-  {
-    name: "Paatal Lok – Season 2",
-    img: paatal1,
-    trailer: "https://www.youtube.com/watch?v=d-SvTOiY_5k"
-  },
-  {
-    name: "Money Heist",
-    img: money,
-    trailer: "https://www.youtube.com/watch?v=htqXL94Rza4"
+    trailer: "https://www.youtube.com/watch?v=dug56u8NN7g",
+    genre: "Action, Adventure, Fantasy",
+    description: "After stealing the Tesseract, Loki lands in a world of trouble with the Time Variance Authority."
   },
 ];
  
