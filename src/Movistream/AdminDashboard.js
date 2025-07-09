@@ -124,9 +124,9 @@ const AdminDashboard = () => {
 
       <h3 className='custom-admin-title'>Admin Portal - Movistream</h3>
 
-      {isEdit ? <div className="py-5 bg-dark text-white inquiry1">
+      {isEdit ? <div className="py-5 bg-dark text-white Inquiry1">
         <Container>
-          <Row className="justify-content-center inquiry">
+          <Row className="justify-content-center Inquiry">
             <Col xs={12} md={8} lg={6}>
               <h2 className="text-center mb-3">Need Anything? Ask Us</h2>
               <hr />
