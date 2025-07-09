@@ -8,6 +8,7 @@ import squid from "./images/squid.jpg";
 
 import "./carousel.css";
 
+
 const carouselData = [
   {
     image: alice,

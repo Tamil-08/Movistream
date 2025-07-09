@@ -1,4 +1,4 @@
-
+/* 
 /* .car{
   cursor: pointer;
 
@@ -164,4 +164,72 @@
 
 
 
-   
+.scroll-container {
+  scroll-snap-type: y mandatory;
+  overflow-y: auto;
+  height: 100vh;
+}
+
+.section {
+  position: relative;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.video-bg {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.section-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), transparent 70%);
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.section-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.section-meta,
+.section-desc {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.section-tags span {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.watch-btn {
+  background: #e50914;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 1rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+
+
