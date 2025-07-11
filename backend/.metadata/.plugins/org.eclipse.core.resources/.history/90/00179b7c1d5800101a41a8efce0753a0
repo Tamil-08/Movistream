@@ -1,0 +1,8 @@
+package com.example.movistream.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+
+public interface MoviRepo extends JpaRepository<MoviController, Integer> {
+
+}

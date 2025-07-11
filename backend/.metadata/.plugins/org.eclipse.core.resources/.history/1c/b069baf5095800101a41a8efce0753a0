@@ -1,0 +1,20 @@
+package MoviServices;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.MoviControlle.MoviController;
+
+import MoviRepository.MoviRepository;
+@Service
+public class MoviServices {
+	@Autowired
+	private MoviRepository  movierepository;
+	
+	public void save(MoviController objmovi) {
+		
+		movierepository.save(objmovi);
+	}
+	
+	
+}
