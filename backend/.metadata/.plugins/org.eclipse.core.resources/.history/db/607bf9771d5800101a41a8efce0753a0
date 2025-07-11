@@ -1,5 +1,0 @@
-package com.example.movistream.restapi;
-
-public interface MoviRepository {
-
-}
