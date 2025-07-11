@@ -7,7 +7,7 @@ import './Getstart.css';
 
 import Main from "./nav";
 import Home from "./cards";
-import Carso from "./Carso";
+
 import End from "./footer";
 import Login from "./Login";
 import Inquiry from "./Inquiry";

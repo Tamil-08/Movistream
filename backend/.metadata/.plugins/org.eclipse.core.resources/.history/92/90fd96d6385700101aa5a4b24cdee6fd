@@ -1,0 +1,32 @@
+package MoviRestAPI;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import MoviController.MoviController;
+import MoviServices.MoviServices;
+
+@RestController
+@CrossOrigin
+public class MoviRestAPI {
+@Autowired
+private MoviServices moviservice;
+@PostMapping("/movi")
+
+public String create(@RequestBody MoviController objmovi) {
+	
+	moviservice.save(objmovi);
+	return " movi Details is saved ";
+	
+	
+}
+
+
+
+	
+	
+}

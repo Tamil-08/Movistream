@@ -1,0 +1,6 @@
+package MoviRepository;
+
+public interface MoviRepository {
+	
+
+}

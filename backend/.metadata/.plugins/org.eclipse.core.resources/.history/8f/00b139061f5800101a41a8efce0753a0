@@ -1,0 +1,34 @@
+package com.example.movistream.restapi;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+
+import com.example.movistream.controller.MoviController;
+import com.example.movistream.service.MoviService;
+
+
+public class MoviRestApi {
+	@Autowired
+	private MoviService moviservice;
+	@PostMapping("/movie")
+	public String create(@RequestBody MoviController objmovi) {
+		
+		moviservice.save(objmovi);
+		return " movi Details is saved ";
+		
+		
+	}
+
+	@GetMapping("/greet")
+	public String greet() {
+		return "Hello San!";
+	}
+
+
+
+
+		
+		
+}
