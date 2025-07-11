@@ -33,7 +33,7 @@ const Main = () => {
         variant="dark"
         expanded={expanded}
         onToggle={() => setExpanded(!expanded)}
-        sticky="bottom"
+        sticky="top"
         className="navbar"
       >
         <Container>
