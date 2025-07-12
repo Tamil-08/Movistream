@@ -14,6 +14,7 @@ import Inquiry from "./Inquiry";
 import Register from "./Register";
 import AdminDashboard from "./AdminDashboard";
 import Adminlogin from "./AdminLogin";
+import Watch from "./watch";
 
 
 
@@ -34,7 +35,7 @@ const Getstart = () => {
       <Route element={<Inquiry />} path="/Inquiry" />
      <Route path="/reviews" element={< reviews />} />
      
-      
+       <Route path="/watch" element={<Watch />} />
        <Route path="/admin" element={< Adminlogin/>}/>
         <Route path="/profile" element={<h2>User Profile Page</h2>} />
         <Route path="/test-inquiry" element={<h2>Inquiry Page</h2>} />

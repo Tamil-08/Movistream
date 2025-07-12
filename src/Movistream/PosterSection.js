@@ -1,10 +1,16 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+
 import './cards.css';
 
 const PosterSection = ({ title, posters }) => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
+   const navigate = useNavigate();
+  const handlePlay = (trailerUrl) => {
+    navigate("/watch", { state: { trailerUrl } });
+  };
 
-  
+
   return (
     <div className="row-cont">
       <h2 className="home">{title}</h2>
@@ -47,6 +53,10 @@ const PosterSection = ({ title, posters }) => {
               <p className="poster-title">{poster.name}</p>
               {poster.genre && <p className="poster-genre"><strong>Genre:</strong> {poster.genre}</p>}
               {poster.description && <p className="poster-description">{poster.description}</p>}
+              <button className="play-btn" onClick={() => handlePlay(poster.trailer)}>
+                ▶ Play
+              </button>
+
             </div>
           </div>
         ))}

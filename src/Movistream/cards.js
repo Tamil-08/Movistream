@@ -71,6 +71,7 @@ import bad from './images/bad.jfif';
 
  import Carso from './Carso'
 
+
 const Home = () => {
  
   
@@ -85,6 +86,7 @@ const Home = () => {
     {
     name: "Alice in Borderland",
     img: alice,
+  
     trailer: "https://www.youtube.com/watch?v=49_44FFKZ1M",
     genre: "Thriller, Sci-Fi",
     description: "Contestants play deadly games to survive in an abandoned Tokyo."

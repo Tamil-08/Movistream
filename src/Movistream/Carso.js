@@ -6,8 +6,9 @@ import stranger from "./images/stranger.jfif";
 import wednesday from "./images/wednesday.jfif";
 import squid from "./images/squid.jpg";
 
-import "./carousel.css";
 
+import "./carousel.css";
+import "react-player";
 
 const carouselData = [
   {
@@ -76,10 +77,10 @@ const Sample = () => {
                     <span key={i}>{tag}</span>
                   ))}
                 </div>
-                <div className="carousel-buttons">
+                {/* <div className="carousel-buttons">
                   <button className="watch-btn">▶ Watch Now</button>
 
-                </div>
+                </div> */}
               </div>
             </div>
           </Carousel.Item>
